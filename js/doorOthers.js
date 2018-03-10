@@ -93,6 +93,8 @@ function Door1(number, onUnlock) {
         b.addEventListener('pointercancel', _onButtonPointerUp.bind(this));
     }.bind(this));
 
+    this.popup.addEventListener('pointerup', _onButtonPointerUp.bind(this));
+
     function _onButtonPointerDown(e) {
         if (currentInputIndex < 6) {
             e.target.classList.add('door-riddle__button_pressed');
