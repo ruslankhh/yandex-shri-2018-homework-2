@@ -184,3 +184,45 @@ body {
 .door-riddle__button_pressed {
     background-color: #F3E5D9;
 }
+
+/* ==== Ruslan Khusnetdinov ==== */
+.popup_level_1 .door-riddle {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 100px 0 0;
+    height: 450px;
+}
+
+.door-riddle__button {
+    line-height: 64px;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.door-riddle__input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 50px; 
+}
+
+.door-riddle__input {
+    font-size: 32px;
+    height: 32px;
+    width: 20px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.line-break {
+    width: 100%;
+}
+/* ==== END Ruslan Khusnetdinov ==== */
