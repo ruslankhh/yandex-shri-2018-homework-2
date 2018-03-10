@@ -1,0 +1,29 @@
+{
+  "name": "yandex-shri-2018-homework-2",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Ruslan Khusnetdinov",
+    "email": "ruslankhh@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.4.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d public",
+    "dev": "browser-sync start --port 8080 --server 'public' --files 'public'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "eslint": "^4.15.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-prettier": "^2.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "gh-pages": "^1.1.0",
+    "semistandard": "^11.0.0",
+    "stylelint": "^8.4.0",
+    "stylelint-config-standard": "^18.0.0"
+  }
+}
