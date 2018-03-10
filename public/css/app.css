@@ -186,7 +186,27 @@ body {
 }
 
 /* ==== Ruslan Khusnetdinov ==== */
-.popup_level_1 .door-riddle {
+.popup__close {
+    z-index: 10;
+}
+
+.popup__hero,
+.popup__title {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    width: 100%;
+}
+
+.popup__title {
+    top: 56px;
+}
+
+.popup_level_1 .door-riddle,
+.popup_level_2 .door-riddle {
     box-sizing: border-box;
     flex-wrap: wrap;
     padding: 100px 0 0;
