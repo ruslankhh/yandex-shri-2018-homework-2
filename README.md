@@ -2,6 +2,8 @@
 
 Домашнее задание #2 в ШРИ Яндекса 2018.
 
+Сайт: [http://ruslankhh.com/yandex-shri-2018-homework-2](http://ruslankhh.com/yandex-shri-2018-homework-2)
+
 ## Задание
 
 Реализация пользовательских жестов в рамках игры «Dungeon of Doom».
