@@ -206,11 +206,9 @@ body {
 }
 
 .popup_level_1 .door-riddle,
-.popup_level_2 .door-riddle {
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    padding: 100px 0 0;
-    height: 450px;
+.popup_level_2 .door-riddle,
+.popup_level_3 .door-riddle {
+    display: block;
 }
 
 .door-riddle__button {
@@ -224,12 +222,44 @@ body {
     user-select: none;
 }
 
+.door-riddle__button_onmove,
+.door-riddle__button_pressed {
+    z-index: 1;
+}
+
+.door-riddle__button-container,
 .door-riddle__input-container {
+    position: absolute;
+    box-sizing: border-box;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    padding: 0 50px; 
+}
+
+.door-riddle__input-container {
+    top: 120px;
+    left: 0;
+    padding: 0 50px;
+}
+
+.door-riddle__button-container {
+    top: 160px;
+    left: 0;
+    height: 300px;
+}
+
+.popup_level_3 .door-riddle__input-container {
+    top: 140px;
+    left: 0;
+    padding: 0 50px;
+}
+
+.popup_level_3 .door-riddle__button-container {
+    top: 220px;
+    left: 0;
+    height: 200px;
 }
 
 .door-riddle__input {
@@ -241,6 +271,23 @@ body {
     margin-bottom: 30px;
     text-align: center;
 }
+
+.door-riddle__input_slot {
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    background-color: #ccc;
+    border: 1px solid #F3E9E0;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .4);
+
+    transition: background-color .3s;
+    margin-bottom: 0;
+}
+
+.door-riddle__input_hover {
+    background-color: #666;
+}
+
 
 .line-break {
     width: 100%;
